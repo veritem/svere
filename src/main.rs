@@ -1,3 +1,5 @@
+use svere::parse_args;
+
 fn main() {
-    println!("Hello, world!");
+    parse_args();
 }
