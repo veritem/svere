@@ -1,5 +1,12 @@
-use svere::parse_args;
+mod cli;
 
 fn main() {
-    parse_args();
+ let matches =  cli::build_cli().get_matches();
+
+ 
+ 
+ // match matches.subcommand_name() {
+
+ // } 
+
 }
