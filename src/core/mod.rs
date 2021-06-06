@@ -1,3 +1,3 @@
-mod build
-mod new
-mod run
+pub mod new;
+pub mod build;
+pub mod run;
